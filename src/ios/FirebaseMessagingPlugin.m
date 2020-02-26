@@ -2,7 +2,9 @@
 #import <Cordova/CDV.h>
 #import "AppDelegate.h"
 
-@import Firebase;
+@import FirebaseCore;
+@import FirebaseMessaging;
+@import FirebaseInstanceID;
 
 @implementation FirebaseMessagingPlugin
 
